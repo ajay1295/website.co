@@ -1,0 +1,174 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial', sans-serif;
+	margin-top: -25px;
+}
+nav{
+	width: 100%;
+	background: #00316b;
+}
+li img{
+	height: 120px;
+	width: 150px;
+}
+.main_menu ul{
+	margin: 0 auto;
+	padding: 0;
+}
+.main_menu li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+	font-size: 20px;
+}
+.main_menu a{
+	text-decoration: none;
+	padding: 8px;
+	font-variant: small-caps;
+	color: #fff;
+}
+.main_menu a:hover{
+	color: #00316b;
+	background: #fff;
+}
+#container{
+	width: 90%;
+	height: 550px;
+	border: 1px solid black;
+	margin: 0 auto;
+	position: relative;
+}
+#container img{
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	float: right;
+}
+#container .btn{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border: none;
+	border-radius: 25px;
+	top: 300px;
+	margin: 10px;
+	background: black;
+	color: white;
+	font-size: 20px;
+}
+#container #btnprev:hover{
+	box-shadow: 10px 0 20px 0 black;
+}
+#container #btnnext{
+	right: 0
+}
+#container #btnnext:hover{
+	box-shadow: -10px 0 20px 0 black;
+}
+.right{
+	float: right;
+	position: relative;	
+	width: 50%;
+	text-align: center;
+	margin-top: 150px;
+}
+h1{
+    font-family: serif;
+    font-size: 200%;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    color: #2C2C2C;
+}
+.left-col{
+    float: left;
+    margin: 4% 0 4% 4%;
+    width: 50%;
+}
+.sidebar-right{
+    width: 37%;
+    float: left;
+    margin: 4%;
+}
+.sidebar-right img{
+	margin-top: 90px;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    opacity: .5;
+}
+.left-col h2,h3{
+	text-align: center;
+	font-family: serif;
+}
+.left-col p{
+	font-weight: 1;
+}
+footer{
+    background-color: #2C2C2C;
+    text-align: center;
+}
+footer p{
+	color: #fff;
+}
+footer img{
+	margin-top: 10px;
+	height: 80px;
+	width: 80px;
+}
+.social{
+    list-style-type: none;
+}
+.social li{
+    display: inline;
+}
+.social li:hover{
+    opacity: .6;
+}
+.social img{
+	height: 50px;
+	width: 50px;
+}
+.clearfix{
+    clear: both;
+    height: 3%;
+}
+@media screen and (max-width: 768px){
+	.main_menu ul{
+	margin: 0 auto;
+	padding: 0;
+	}
+	.main_menu li{
+	list-style: none;
+	display: block;
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+	}
+	#container{
+	border: none;
+	}
+ 	#container img{
+ 	width: 100%;
+	position: absolute;
+	margin-top: 150px;
+	height: 400px;
+	}
+	.right{
+	text-align: center;
+	position: relative;	
+	width: 100%;
+	margin: 0;
+	}
+	.left-col{
+    margin: 0 auto;
+    width: 100%;
+	}
+	.sidebar-right{
+    width: 100%;
+    margin: 0 auto;
+	}
+
+}
